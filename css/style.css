@@ -32,7 +32,21 @@ body {
 .link {
   text-decoration: none;
 }
+img {
+  display: block;
+}
 /*--------------------HEADER JOINT__________________*/
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .logo {
   font-family: 'Raleway';
   font-weight: 700;
@@ -107,8 +121,13 @@ body {
   color: #2196f3;
 }
 /*-----------------------MAIN HOME________________*/
+.peculiarities {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .section-title-home {
   background: #2f303a;
+  padding: 200px 50px 280px 50px;
 }
 .title-first-home {
   font-weight: 900;
@@ -118,6 +137,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  max-width: 700px;
+  margin-bottom: 30px;
 }
 .button-title-home {
   font-family: 'Roboto';
@@ -131,6 +152,7 @@ body {
   color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
+  margin: 0 auto;
 }
 .button-title-home:hover,
 .button-title-home:focus {
@@ -143,6 +165,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
 .peculiarities-text {
   font-weight: 400;
@@ -150,9 +173,15 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  max-width: 260px;
 }
 .tiem {
   background-color: #f5f4fa;
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.services {
+  padding-bottom: 94px;
 }
 .title-main {
   font-weight: 700;
@@ -161,6 +190,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 .master-title {
   font-weight: 500;
@@ -169,6 +199,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 10px;
 }
 .master-skil {
   font-weight: 400;
@@ -177,6 +208,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.tiem-master {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /*---------------MAIN PORTFOLIO__________________*/
 .btn-portfolio {
@@ -215,6 +250,8 @@ body {
 /*--------------FOOTER JOINT___________________*/
 .footer-joint {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .textwhite {
   color: #ffffff;
@@ -226,8 +263,20 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 9px;
+  display: inline-block;
 }
-.mail-footer,
+.mail-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
+  display: inline-block;
+}
 .tel-footer {
   font-style: normal;
   font-weight: 400;

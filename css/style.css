@@ -139,6 +139,8 @@ img {
   color: #ffffff;
   max-width: 700px;
   margin-bottom: 30px;
+  text-align: center;
+  margin: 30px auto;
 }
 .button-title-home {
   font-family: 'Roboto';
@@ -214,6 +216,10 @@ img {
   padding-bottom: 30px;
 }
 /*---------------MAIN PORTFOLIO__________________*/
+.main-section {
+  padding-top: 100px;
+  padding-bottom: 94px;
+}
 .btn-portfolio {
   font-family: 'Roboto';
   font-weight: 500;
@@ -225,11 +231,17 @@ img {
   cursor: pointer;
   background: var(--second-background-color);
   border-radius: 4px;
+  margin-bottom: 56px;
+  border: none;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
   color: #ffffff;
   background-color: #2196f3;
+}
+.portfolio-list {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .name-portfolio {
   font-weight: 700;
@@ -237,6 +249,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--rubric-color);
+  margin-bottom: 4px;
 }
 .description-portfolio {
   font-size: 16px;

@@ -22,19 +22,23 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <nav>
+      <div class="container contacts-list">
+        <nav class="header-nav">
           <a href="./index.html" class="logo link">Web<span class="textblack">Studio</span></a>
-          <ul class="list">
+          <ul class="header-list list">
             <li><a href="./index.html" class="studio-home link">Студия</a></li>
             <li><a href="./portfolio.html" class="portfolio-home link">Портфолио</a></li>
             <li><a href="./index.html" class="contacts-home link">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="list">
-          <li><a href="mailto:info@devstudio.com" class="mail-home link">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="tel-home link">+38 096 111 11 11</a></li>
-        </ul>
+        <div class="header-connect">
+          <ul class="list contacts-list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="mail-home link">info@devstudio.com</a>
+            </li>
+            <li><a href="tel:+380961111111" class="tel-home link">+38 096 111 11 11</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -47,26 +51,26 @@
       <section class="peculiarities">
         <div class="container">
           <h2 class="visually-hidden">Особенности</h2>
-          <ul class="list">
-            <li>
+          <ul class="peculiarities-list list">
+            <li class="about-peculiarities">
               <h3 class="peculiarities-title">Внимание к деталям</h3>
               <p class="peculiarities-text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="about-peculiarities">
               <h3 class="peculiarities-title">Пунктуальность</h3>
               <p class="peculiarities-text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="about-peculiarities">
               <h3 class="peculiarities-title">Планирование</h3>
               <p class="peculiarities-text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="about-peculiarities">
               <h3 class="peculiarities-title">Современные технологии</h3>
               <p class="peculiarities-text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -78,11 +82,11 @@
       <section class="services">
         <div class="container">
           <h2 class="title-main">Чем мы занимаемся</h2>
-          <ul class="list">
-            <li>
+          <ul class="about-list list">
+            <li class="about-item">
               <img src="./img/about-img-1.jpg" alt="работает над кодом" width="370" height="294" />
             </li>
-            <li>
+            <li class="about-item">
               <img
                 src="./img/about-img-2.jpg"
                 alt="работает с телефоном"
@@ -90,7 +94,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="about-item">
               <img
                 src="./img/about-img-3.jpg"
                 alt="работает над графическим изображением"
@@ -104,22 +108,22 @@
       <section class="tiem">
         <div class="container">
           <h2 class="title-main">Наша команда</h2>
-          <ul class="list">
-            <li>
+          <ul class="tiem-list list">
+            <li class="about-tiem">
               <img src="./img/master-img-1.jpg" alt="мастер дизайна" width="270" height="260" />
               <div class="tiem-master">
                 <h3 class="master-title">Игорь Демьяненко</h3>
                 <p lang="en" class="master-skil">Product Designer</p>
               </div>
             </li>
-            <li>
+            <li class="about-tiem">
               <img src="./img/master-img-2.jpg" alt="мастер разработчик" width="270" height="260" />
               <div class="tiem-master">
                 <h3 class="master-title">Ольга Репина</h3>
                 <p lang="en" class="master-skil">Frontend Developer</p>
               </div>
             </li>
-            <li>
+            <li class="about-tiem">
               <img
                 src="./img/master-img-3.jpg"
                 alt="мастер по маркетингу"
@@ -131,7 +135,7 @@
                 <p lang="en" class="master-skil">Marketing</p>
               </div>
             </li>
-            <li>
+            <li class="about-tiem">
               <img
                 src="./img/master-img-4.jpg"
                 alt="мастер по дизайну интерфейса"

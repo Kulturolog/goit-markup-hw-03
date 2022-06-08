@@ -46,6 +46,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 .logo {
   font-family: 'Raleway';
@@ -54,6 +55,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-right: 93px;
 }
 .textblack {
   color: black;
@@ -120,6 +122,30 @@ img {
 .tel-portfolio:focus {
   color: #2196f3;
 }
+.header-list {
+  display: flex;
+}
+.contacts-list {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-connect {
+  margin-left: auto;
+}
+.studio-portfolio,
+.portfolio-portfolio,
+.studio-home,
+.portfolio-home {
+  margin-right: 50px;
+}
+.tel-portfolio,
+.tel-home {
+  margin-left: 50px;
+}
 /*-----------------------MAIN HOME________________*/
 .peculiarities {
   padding-top: 94px;
@@ -143,6 +169,8 @@ img {
   margin: 30px auto;
 }
 .button-title-home {
+  min-width: 200px;
+  height: 50px;
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
@@ -155,10 +183,23 @@ img {
   background-color: #2196f3;
   cursor: pointer;
   margin: 0 auto;
+  border-radius: 4px;
+  border-color: #2196f3;
+}
+.button-title-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .button-title-home:hover,
 .button-title-home:focus {
   background-color: #188ce8;
+}
+.peculiarities-list {
+  display: flex;
+}
+.about-peculiarities:nth-child(-n + 3) {
+  margin-right: 30px;
 }
 .peculiarities-title {
   font-weight: 700;
@@ -177,6 +218,17 @@ img {
   color: #757575;
   max-width: 260px;
 }
+.tiem-list {
+  display: flex;
+}
+.about-tiem:nth-child(-n + 3) {
+  margin-right: 30px;
+}
+.about-tiem {
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  max-width: 370px;
+}
 .tiem {
   background-color: #f5f4fa;
   padding-bottom: 94px;
@@ -184,6 +236,12 @@ img {
 }
 .services {
   padding-bottom: 94px;
+}
+.about-list {
+  display: flex;
+}
+.about-item:nth-child(-n + 2) {
+  margin-right: 30px;
 }
 .title-main {
   font-weight: 700;
@@ -217,8 +275,11 @@ img {
 }
 /*---------------MAIN PORTFOLIO__________________*/
 .main-section {
-  padding-top: 100px;
+  padding-top: 94px;
   padding-bottom: 94px;
+}
+.button-list {
+  display: flex;
 }
 .btn-portfolio {
   font-family: 'Roboto';

@@ -278,9 +278,6 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.button-list {
-  display: flex;
-}
 .btn-portfolio {
   font-family: 'Roboto';
   font-weight: 500;
@@ -294,15 +291,36 @@ img {
   border-radius: 4px;
   margin-bottom: 56px;
   border: none;
+  padding: 6px 22px;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
   color: #ffffff;
   background-color: #2196f3;
 }
+.button-list {
+  display: flex;
+  justify-content: center;
+}
+.btn-portfolio:nth-child(-n + 4) {
+  margin-right: 8px;
+}
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+.gallery-item {
+  width: calc(100% / 3 - 30px);
+  margin: 15px;
+}
 .portfolio-list {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
 }
 .name-portfolio {
   font-weight: 700;

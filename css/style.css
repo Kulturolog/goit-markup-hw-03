@@ -150,6 +150,9 @@ address {
   align-items: center;
   margin-left: auto;
 }
+.header .container {
+  display: flex;
+}
 .header-nav {
   display: flex;
   align-items: center;

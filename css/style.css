@@ -19,10 +19,6 @@ h5,
 h6 {
   margin: 0;
 }
-ul {
-  margin: 0;
-  padding-left: 0;
-}
 body {
   font-family: 'roboto', sans-serif;
   background-color: var(--layout-background-color);
@@ -49,11 +45,6 @@ address {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 15px 0;
 }
 /*--------------------HEADER JOINT__________________*/
 .container {
@@ -211,7 +202,9 @@ address {
 }
 .about-peculiarities:nth-child(-n + 3) {
   margin-right: 30px;
-  width: 280px;
+}
+.about-peculiarities {
+  width: 270px;
 }
 .peculiarities-title {
   font-weight: 700;
@@ -228,7 +221,6 @@ address {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  max-width: 260px;
 }
 .tiem-list {
   display: flex;
@@ -403,9 +395,6 @@ address {
   color: var(--brand-color);
 }
 /*_____________________________________________________*/
-.list {
-  text-decoration: none;
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
